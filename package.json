@@ -1,0 +1,30 @@
+{
+  "name": "ts-n-express",
+  "version": "1.0.0",
+  "description": "a restfull api with nodeJS, typescript and express.js",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlosferreira/ts-n-express.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlosferreira/ts-n-express/issues"
+  },
+  "homepage": "https://github.com/karlosferreira/ts-n-express#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.19",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0"
+  }
+}
